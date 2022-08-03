@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#699C4D;
+    height: 130px;
+    display:table;
+    width:100%;
+    float:left;
+    border-bottom: 5px solid #ccd4cf;
+}
+.topo{
+    width:900px;
+    margin:0 auto;
+}
+.nome{
+    display:table;
+    margin: 0;
+
+}
+.p1{
+    display:table;
+    margin: 0; 
+}
+.menu{
+    margin: 0;
+    float:right;
+    padding-left: 0;
+}
+img{
+    float:left;
+}
+.menu li{
+    float:left;
+    list-style: none;
+    border-top:2px #9BC56F solid;
+}
+main a {
+    text-decoration:none;
+}
+.menu a{
+    display:block;
+    color:#ffffff;
+    background-color:#243F12;
+    padding:10px 20px 10px 20px;
+    font-size: 10pt;
+}
+.menu a:hover{
+    background-color:#ffffff;
+    color:#243F12;
+}
+.menu{
+    padding-top: 27px;
+}
+.menu li{
+    margin: 1px 0px 0px 1px;
+}
+.logo{
+    display:inline-block;
+    margin: 0;
+}
+.logo h1{
+    padding:25px 0px 0px 8px; 
+    color:#ffffff;
+}
+.logo h1 a{
+    color:white;
+}
+.logo p{
+    padding: 0px 0px 0px 8px;
+    color:#ffffff;
+}
+.conteudo h1{
+    margin: 0;
+    color: #232F01;
+    font-size: 25pt;
+    padding-top:30px;
+}
+.corpo{
+    width:900px;
+    margin:0 auto;
+}
+.conteudo{
+    width: 590px;
+    float:right;
+}
+.conteudo p{
+    line-height: 25px;
+    font-size: 13.5px
+}
+.conteudo p a{
+    text-decoration: underline;
+    color:#243F12
+}
+.barra_lateral{
+    width:270px;
+    float:left;
+    padding-top: 35px;
+}
+.conteudo2 h1{
+    margin: 0;
+    font-size: 20pt;
+}
+.conteudo2 a{
+    text-decoration: underline;
+    color: #243F12;
+}
+div h2{
+    background-color:#699C4D;
+    color:#ffffff;
+    font-size: 18px;
+    padding:5px 0px 5px 20px 
+}
+.barra_lateral .lorem{
+    padding-top: 10px;
+}
+.lorem ul li a{
+    color:#000000;
+    font-size:13.5px
+}
+.lorem ul li :hover{
+    color:#243F12;
+    text-decoration: underline;
+}
+.lorem ul li{
+    list-style-type:none;
+}
+.barra_lateral .volu{
+    padding-top: 0.5px;
+}
+.volu ul li a{
+    color:#000000;
+    font-size:13.5px
+}
+.volu ul li{
+    list-style-type:none;
+}
+.volu ul li :hover{
+    color:#243F12;
+    text-decoration: underline;
+}
+.rodape{
+    clear: both;
+    text-align:center;
+    background-color:#699C4D;
+    width:100%;
+    padding:5px;
+}
+.rodape p{
+    font-size: 13.5px;
+    color:#ffffff;
+}
+.rodape a{
+    color:#ffffff;
+    text-decoration:underline;
+}
